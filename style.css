@@ -1,0 +1,254 @@
+.site {
+	margin: 0 auto;
+  min-width: 320px; 
+  max-width: 1440px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 58px;
+  padding: 24px 58px 0 43px;
+}
+
+.logo {
+  background: url(./img/Tesla-Wordmark-Red.png);
+  height: 51px;
+  width: 166px;
+}
+
+.menu {
+  font: normal 600 15px "Montserrat";  
+  width: 489px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu__link {
+  color: #000;
+  text-decoration: none;
+  position: relative;
+}
+
+.menu__link:visited,
+.menu__link:hover,
+.menu__link:active,
+.menu__link_active {
+  color: #E51937;
+}
+
+.menu__link:visited::after,
+.menu__link:hover::after,
+.menu__link:active::after,
+.menu__link_active::after {
+  content: "";
+  color: #E51937;
+  background: url(./img/underline.png) no-repeat;
+  background-size: cover;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 25px;
+}
+
+.side-menu {
+  font: normal 600 15px "Montserrat";
+  width: 204px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.side-menu__link {
+  color: #000;
+  text-decoration: none;
+  position: relative;
+}
+
+.side-menu__link:visited,
+.side-menu__link:hover,
+.side-menu__link:active {
+  color: #E51937;
+}
+
+.side-menu__link:visited::after,
+.side-menu__link:hover::after,
+.side-menu__link:active::after {
+  content: "";
+  color: #E51937;
+  background: url(./img/underline.png) no-repeat;
+  background-size: cover;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 25px;
+}
+
+.title {
+  color: #000;
+  font: normal 600 90px/110px "Montserrat";
+  text-align: center;
+  height: 90px; 
+  margin: 0;
+}
+
+.subtitle {   
+  color: #000;
+  font: normal 500 15px/18px "Montserrat";
+  text-align: center;
+  height: 15px;
+}
+
+.main__wordmark {
+  background: url(./img/Tesla-Wordmark.png) no-repeat center;
+  background-size: 100% auto;
+  text-align: center;
+  width: 100%;
+  max-width: 1640px;
+  position: relative;
+  bottom: 120px;
+  margin: 0 auto 38px;
+}
+
+.main__tesla {
+  display: inline-block;
+  position: relative;
+  top: 140px;
+  margin: 0;
+}
+
+.main__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 37px;
+}
+
+.feature {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.speed,
+.move {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  margin-right: 89px;
+}
+
+.speed__icon {
+  height: 35px;
+  width: 46px;
+  margin-right: 14px;
+}
+
+.move__icon {
+  height: 50px;
+  width: 31px;
+  margin-right: 11px;
+}
+
+.parameter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  margin-right: 89px;
+}
+
+.speed__time,
+.move__value {
+  font: normal 600 35px/43px "Montserrat";
+  margin: 0;
+}
+
+.speed__time-unit,
+.move__value-unit {
+	font: normal 600 20px/24px "Montserrat";
+  position: relative;
+  left: 6px;
+}
+
+.speed__distance,
+.move__distance {
+	font: normal normal 12px/15px "Montserrat";
+  margin: 0;
+}
+
+.test {
+	display: flex;
+  justify-content: space-between;
+}
+
+.test__wheel {
+  font: normal bold 13px/16px "Montserrat";
+  background: none;
+  border: none;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  margin-right: 34px;
+}
+
+.test__wheel:before {
+  content: "";
+  background: url(./img/test.svg) no-repeat;
+  background-size: contain;
+  height: 22px;
+  width: 22px;
+  margin-right: 7px;
+}
+
+.test__wheel:hover::before {
+  content: "";
+  background: url(./img/test.svg) no-repeat;
+  background-size: contain;
+  height: 22px;
+  width: 22px;
+}
+
+.test__wheel:hover {
+  color: #E51937;
+  cursor: pointer;
+}
+
+.test__wheel:active,
+.test__wheel:focus {
+  outline: none;
+}
+
+.test__btn {
+  font: normal bold 13px/16px "Montserrat";
+  background: none;
+  border: solid 2px #E51937;
+  box-sizing: border-box;
+  color: #E51937;
+  height: 40px;
+  width: 160px;
+  text-transform: uppercase;
+}
+
+.test__btn:hover {
+  color: #FFF;
+  cursor: pointer;
+  background: #E51937;
+}
+
+.test__btn:active,
+.test__btn:focus {
+  outline: none;
+}
+
+.arrow {
+  margin: 0 48% 27px;
+  height: 20px;
+  width: 34px;
+}
