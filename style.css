@@ -4,6 +4,11 @@
   max-width: 1440px;
 }
 
+.main {
+	height: 100%;
+  width: 100%;
+}
+
 .head {
   display: flex;
   justify-content: space-between;
@@ -135,8 +140,7 @@
   margin-right: 15px;
 }
 
-.speed,
-.move {
+.speed,.move {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -154,14 +158,6 @@
   height: 50px;
   width: 31px;
   margin-right: 11px;
-}
-
-.parameter {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: auto;
-  margin-right: 89px;
 }
 
 .speed__time,
